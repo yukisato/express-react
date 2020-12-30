@@ -8,7 +8,7 @@
     "npm": "7.x"
   },
   "scripts": {
-    "start": "npm run start --prefix packages/backend",
+    "start": "node packages/backend/dist/index.js",
     "build": "npm run build --prefix packages/backend && npm run build --prefix packages/frontend"
   },
   "workspaces": [
