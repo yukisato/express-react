@@ -11,11 +11,9 @@
     "start": "node index.js",
     "heroku-postbuild": "sh ./build.sh"
   },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "author": {
     "name": "Yuki Sato",
     "email": "yuki.sato.dev@gmail.com",
