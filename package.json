@@ -4,7 +4,8 @@
   "description": "Sample monorepo app with npm7, React, and Express",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "7.x"
   },
   "scripts": {
     "start": "node index.js",
