@@ -1,0 +1,24 @@
+{
+  "name": "express-react",
+  "version": "0.0.1",
+  "description": "Sample monorepo app with npm7, React, and Express",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "sh ./build.sh"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": {
+    "name": "Yuki Sato",
+    "email": "yuki.sato.dev@gmail.com",
+    "url": "https://github.com/yukisato"
+  },
+  "license": "MIT"
+}
