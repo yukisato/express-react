@@ -8,8 +8,8 @@
     "npm": "7.x"
   },
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "sh ./build.sh"
+    "start": "npm run start --prefix packages/backend",
+    "build": "npm run build --prefix packages/backend && npm run build --prefix packages/frontend"
   },
   "workspaces": [
     "packages/*"
